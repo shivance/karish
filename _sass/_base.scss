@@ -2,6 +2,47 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+ .awardTag-year{
+  .btn {
+    color: var(--global-text-color);
+    // border: 1p var(--global-text-color);
+    border-radius: 1rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-left: 0;
+    background-color: $yellow-color;
+    
+}
+ }
+
+.spotlight{
+  background-color: rgba($yellow-color, 0.4);
+  border-radius: 0.7rem;
+  padding-top: 0.1rem;
+  padding-left: 0.1rem;
+}
+.awardTag{
+  .btn {
+    color: var(--global-text-color);
+    // border: 1p var(--global-text-color);
+    border-radius: 1rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-left: 0;
+    background-color: rgba($red-color-dark, 0.3);;
+    &:hover {
+      color: var(--global-theme-color);
+      border: 0.07rem solid black;
+      border-color: black;
+      background-color: white;
+    }
+  }
+}
+
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
@@ -60,18 +101,59 @@ blockquote {
   text-align: center;
 }
 
+
 // Card
 
+.card .card-body .card-text {
+  font-size: .9rem;
+  font-weight: 300;
+  color: black;
+  padding: 0,0,0,0;
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 900px) {
+  .card-img {
+display: none;
+}
+}
+
+.card-img{
+  padding: 1rem;
+  
+  // width: fit-content;
+  // height: fit-content;
+  
+}
+
 .card {
+  box-shadow: none;
   background-color: var(--global-card-bg-color);
 
   img {
     width: 100%;
+    border-radius: 1rem;
+  }
+  
+  .card-text{
+    color: var(--global-text-color);
+    font-size: 0.2rem;
+    font-weight: 300
   }
 
   .card-title {
     color: var(--global-text-color);
+    font-size: 1.05rem;
+    font-family: "roboto", sans-serif;
+    font-weight: bolder;
   }
+
+  .card-subtitle {
+    color: var(--global-text-color);
+    font-size: 0.7rem;
+  }
+
 
   .card-item {
     width: auto;
@@ -399,7 +481,11 @@ footer.sticky-bottom {
   }
 }
 
+//Awards
 
+.awards{
+  font-size: 0.8rem;
+}
 // Distill
 
 .distill {
@@ -429,6 +515,28 @@ footer.sticky-bottom {
     }
   }
 
+
+
+
+  .links{
+    .btn {
+      color: var(--global-text-color);
+      // border: 1p var(--global-text-color);
+      border-radius: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      margin-left: 0;
+      background-color: rgba($red-color-dark, 0.3);;
+      &:hover {
+        color: var(--global-theme-color);
+        border: 0.07rem solid black;
+        border-color: black;
+        background-color: white;
+      }
+    }
+  }
   .card-item {
     width: auto;
     margin-bottom: 10px;
@@ -537,17 +645,22 @@ footer.sticky-bottom {
           }
         }
       }
-      .links {
+      .links{
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          // border: 1p var(--global-text-color);
+          border-radius: 1rem;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
+          margin-left: 0;
+          background-color: rgba($red-color-dark, 0.3);;
           &:hover {
             color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            border: 0.07rem solid black;
+            border-color: black;
+            background-color: white;
           }
         }
       }
@@ -589,6 +702,8 @@ footer.sticky-bottom {
     }
   }
 }
+
+//news
 
 // Rouge Color Customization
 figure.highlight {
