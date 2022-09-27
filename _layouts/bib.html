@@ -5,9 +5,9 @@
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-2 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-0 rounded" src="{{ entry.preview }}">
           {%- else -%}
-          <img class="preview z-depth-2 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+          <img class="preview z-depth-0 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
@@ -23,7 +23,7 @@
         </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
+        <div id="{{entry.key}}" class="col-sm-7">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
@@ -176,7 +176,9 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-          </div>
+          <!-- <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">{{ entry.abbr }} {{ entry.year }}</span></span> -->
+          <a href = "#" class="btn-year btn-sm z-depth-0" role = "">{{ entry.abbr }} {{ entry.year }}</a>
+        </div>
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->

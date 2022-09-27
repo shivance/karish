@@ -15,15 +15,15 @@ nav_order: 5
 
 - Awarded the prestigious year-long **Chanakaya Undergraduate Fellowship** of amount `100,000 INR`, by [IIITD iHub Anubhuti](https://ihub-anubhuti-iiitd.org/) and [Department of Science and Technology](https://dst.gov.in/), to support undergraduate thesis. <span class = "awardTag"><a href="https://ihub-anubhuti-iiitd.org/chanakyaug.html" class="btn btn-sm z-depth-0" role="button">Link</a></span><span class = "awardTag"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6881173214836400128?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6881173214836400128%29" class="btn btn-sm z-depth-0" role="button">Social Media</a></span><span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2022</span></span>
 
-<div class = "spotlight" markdown = "1">
+<!-- <div class = "spotlight" markdown = "1"> -->
 - **First Position** in the [Humor Analysis using Humor Annotation](https://www.fing.edu.uy/inco/grupos/pln/haha/) (HAHA) workshop shared task at [IberLEF](https://sites.google.com/view/iberlef2021/) 2021 - invited for Oral presentation at [Spanish Computer Science Congress](https://congresocedi.es/) CEDI20/21. <span class = "awardTag"><a href="http://ceur-ws.org/Vol-2943/haha_paper10.pdf" class="btn btn-sm z-depth-0" role="button">Paper</a></span><span class = "awardTag"><a href="https://github.com/karish-grover/Humor-Analysis-using-Ensembles-of-Simple-Transformers" class="btn btn-sm z-depth-0" role="button">Code</a></span><span class = "awardTag"><a href="https://www.fing.edu.uy/inco/grupos/pln/haha/index.html#results" class="btn btn-sm z-depth-0" role="button">Leaderboard</a></span><span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2021</span></span>
-</div>
+<!-- </div> -->
 
 -  Conferred with the **Dean’s Award for Academic Excellence** for the year 2020/21, for outstanding academic performance. <span class = "awardTag"><a href="https://bit.ly/3RbtSYj" class="btn btn-sm z-depth-0" role="button">Link</a></span><span class = "awardTag"><a href="https://twitter.com/iiitdelhi/status/1435507245169606657?lang=en" class="btn btn-sm z-depth-0" role="button">Social Media</a></span><span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2021</span></span>
 
-<div class = "spotlight" markdown = "1">
+<!-- <div class = "spotlight" markdown = "1"> -->
 - **Financial reward of `2,500,000 INR`** by [Intel](https://timesofindia.indiatimes.com/city/delhi/niti-aayog-partners-intel-to-set-up-atal-tinkering-labs/articleshow/53286979.cms) and [NITI Aayog](https://www.niti.gov.in/), to establish an elaborate [Atal Tinkering Lab](https://www.aim.gov.in/pdf/PPT-DT-DifferentStages.pdf), out of 6000 teams. <span class = "awardTag"><a href="https://www.amity.edu/ais/aispv/almanac/eventsApril2016toMarch2017.asp" class="btn btn-sm z-depth-0" role="button">Link</a></span>
-</div>
+<!-- </div> -->
 
 - Only one to be felicitated with the **Chairperson’s Special Appreciation award**, the most prestigious special award by the Chairperson of [Amity Group of Schools](https://www.amity.edu/ais/pushpvihar/) for overall achievements in academics, sports and co-curricular activities.<span><span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2019</span></span>
 
@@ -33,14 +33,14 @@ nav_order: 5
 
 - **First position and cash prize** at *Technovations*, TRYST, [Indian Institute of Technology, Delhi](https://home.iitd.ac.in/), out of **500 projects**. Conceptualised and developed a robot to help visually challenged people to cross roads at any time of the day. <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2019</span></span> 
 
-<div class = "spotlight" markdown = "1">
+<!-- <div class = "spotlight" markdown = "1"> -->
 - **Best Project Mention** at YRONS ([Young Researchers of Natural Sciences](https://www.amity.edu/ais/pushpvihar/yorns.aspx)), **Dubai**, over *200 International Project teams*. Presented a project on Road Safety by conrolling the speed of the cars, as a measure of avoiding overspeeding, using [Radio Frequency](https://www.pcmag.com/encyclopedia/term/rf-remote-control#:~:text=(Radio%20Frequency%20remote%20control)%20A,be%20aimed%20at%20the%20equipment.) controller. <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2018</span></span> 
-</div>
+<!-- </div> -->
 
 - **First Rank** at  **National Science Fair**. Developed an autonomous navigation belt to help visually impaired navigate independently using haptic feedback. <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2017</span></span> 
 
 - **Honourable Mention** at **Indian National Science & Engineering Fair**, organised by [Miranda House, University of Delhi](https://www.mirandahouse.ac.in/) and [Science Society of India](http://www.sciencesociety.in/). Did a project on automatically controlling the vehicle speed in sensitive zones using a [Proportional Integral Derivative(PID)](https://en.wikipedia.org/wiki/PID_controller) and [Radio Frequency](https://www.pcmag.com/encyclopedia/term/rf-remote-control#:~:text=(Radio%20Frequency%20remote%20control)%20A,be%20aimed%20at%20the%20equipment.) controller. <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2017</span></span> 
 
-<div class = "spotlight" markdown = "1">
+<!-- <div class = "spotlight" markdown = "1"> -->
 - **Best Project Award** at OOTM([Odyssey of the Mind](https://odysseyofthemind.de/en/competition/)), EuroFest, **Slovakia**, in Team category out of **1000 International Teams**. Gold Medalist at the fair for designing an actual working car based on 2 propulsion systems.
-</div>
+<!-- </div> -->

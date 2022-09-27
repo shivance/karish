@@ -12,8 +12,8 @@
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     margin-left: 0;
-    background-color: $yellow-color;
-    
+    background-color: rgba($yellow-color, 0.4);
+    font-weight: bold;
 }
  }
 
@@ -76,6 +76,13 @@ a, table.table a {
 figure, img {
   max-width: 90vw;
 }
+
+@media (max-width: 900px) {
+  img {
+display: none;
+}
+}
+
 
 blockquote {
   background: var(--global-bg-color);
@@ -508,11 +515,11 @@ footer.sticky-bottom {
       }
     }
   }
-
   .card {
     img {
       width: 100%;
     }
+    
   }
 
 
@@ -588,6 +595,13 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
   }
+
+  @media (max-width: 900px) {
+    .preview {
+  display: none;
+  }
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -597,9 +611,12 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
       .preview {
         width: 100%;
-        min-width: 80px;
-        max-width: 200px;
+        min-width: 300px;
+        max-width: 400px;
+        padding-right: 1rem;
+        margin: auto;
       }
+      
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -662,6 +679,19 @@ footer.sticky-bottom {
             border-color: black;
             background-color: white;
           }
+        }
+
+        a.btn-year {
+          color: var(--global-text-color);
+          border-radius: 1rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          margin-left: 0;
+          background-color: rgba($yellow-color, 0.4);;
+          font-size: 0.7rem;
+          font-weight: bold;
         }
       }
       .hidden {
