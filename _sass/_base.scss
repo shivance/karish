@@ -693,6 +693,20 @@ footer.sticky-bottom {
           font-size: 0.7rem;
           font-weight: bold;
         }
+
+        a.btn-honor {
+          color: var(--global-text-color);
+          border-radius: 1rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          margin-left: 0;
+          background-color: rgba($green-color, 0.4);;
+          font-size: 0.7rem;
+          font-weight: bold;
+          white-space: nowrap;
+        }
       }
       .hidden {
         font-size: 0.875rem;

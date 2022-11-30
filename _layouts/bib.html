@@ -180,8 +180,10 @@
             <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>
           {%- endif %}
           <!-- <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">{{ entry.abbr }} {{ entry.year }}</span></span> -->
-          <a href = "#" class="btn-year btn-sm z-depth-0" role = "">{{ entry.abbr }} {{ entry.year }}</a>
-
+          <a class="btn-year btn-sm z-depth-0" role = "">{{ entry.abbr }} {{ entry.year }}</a>
+          {%- if entry.honor %}
+          <a class="btn-honor btn-sm z-depth-0" role = "">{{ entry.honor }}</a>
+          {%- endif %}
         </div>
 
           {% if entry.abstract -%}
